@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 
 const SHARED_LINKS = [
@@ -9,7 +8,11 @@ const SHARED_LINKS = [
   'https://i.imgur.com/NATHOLc.jpeg',
   'https://i.imgur.com/PZ1s6Fe.jpeg',
   'https://i.imgur.com/xjdi25t.jpeg',
-  'https://i.imgur.com/4lA2V3f.jpeg'
+  'https://i.imgur.com/4lA2V3f.jpeg',
+  'https://i.imgur.com/0MOMlEe.jpeg',
+  'https://i.imgur.com/Ijc0osc.jpeg',
+  'https://i.imgur.com/Vh5ejb5.jpeg',
+  'https://i.imgur.com/cpV5ARm.jpeg'
 ];
 
 const PROFILE_PHOTO = 'https://i.imgur.com/Syh4bbe.png';

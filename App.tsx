@@ -15,7 +15,8 @@ const SHARED_LINKS = [
   'https://i.imgur.com/cpV5ARm.jpeg'
 ];
 
-const PROFILE_PHOTO = 'https://i.imgur.com/Syh4bbe.png';
+// NOTE: Place the provided image_0.png file into your project's /public directory
+const PROFILE_PHOTO = '/image_0.png';
 
 const App: React.FC = () => {
   const [view, setView] = useState<'home' | 'contact' | 'about'>('home');
@@ -113,7 +114,7 @@ const App: React.FC = () => {
       {/* Header */}
       <header className="max-w-6xl mx-auto pt-20 pb-16 px-8 flex flex-col md:flex-row justify-between items-start md:items-end border-b border-blue-100 gap-8">
         <button onClick={() => setView('home')} className="text-left group">
-          <h1 className="text-4xl font-light tracking-[0.2em] uppercase font-calibri transition-opacity group-hover:opacity-60 text-black">Mark Natad</h1>
+          <h1 className="text-4xl font-light tracking-[0.2em] uppercase font-calibri transition-opacity group-hover:opacity-60 text-black">Josephine Panerio</h1>
           <p className="text-black text-[10px] uppercase tracking-[0.4em] mt-4 opacity-70">Visual Explorer — Creative Repository</p>
         </button>
         
@@ -191,7 +192,7 @@ const App: React.FC = () => {
               >
                 <img 
                   src={PROFILE_PHOTO} 
-                  alt="Mark Natad" 
+                  alt="Josephine Panerio" 
                   className="w-full h-full object-cover scale-110 grayscale group-hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
                 />
@@ -373,7 +374,7 @@ const App: React.FC = () => {
       {/* Footer */}
       <footer className="max-w-6xl mx-auto px-8 py-24 border-t border-blue-100 flex flex-col md:flex-row justify-between items-center gap-12 text-[9px] uppercase tracking-[0.5em] text-black">
         <div className="flex flex-col gap-2 text-center md:text-left">
-          <p className="italic font-medium text-black">© 2024 Mark Natad</p>
+          <p className="italic font-medium text-black">© 2024 Josephine Panerio</p>
           <p className="opacity-60">Visual Curated Space</p>
         </div>
         <div className="flex gap-16">

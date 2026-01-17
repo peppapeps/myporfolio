@@ -13,6 +13,7 @@ const SHARED_LINKS = [
   'https://i.imgur.com/Ijc0osc.jpeg',
   'https://i.imgur.com/Vh5ejb5.jpeg',
   'https://i.imgur.com/cpV5ARm.jpeg'
+  'https://i.imgur.com/5Jea1Rl.jpeg'
 ];
 
 // NOTE: Ensure image_0.png is in your /public folder as discussed

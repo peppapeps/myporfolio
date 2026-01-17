@@ -15,7 +15,7 @@ const SHARED_LINKS = [
   'https://i.imgur.com/cpV5ARm.jpeg'
 ];
 
-// NOTE: Place the provided image_0.png file into your project's /public directory
+// NOTE: Ensure image_0.png is in your /public folder as discussed
 const PROFILE_PHOTO = '/image_0.png';
 
 const App: React.FC = () => {
@@ -292,7 +292,7 @@ const App: React.FC = () => {
 
             <div className="pt-20 border-t border-blue-100 space-y-4">
               <span className="text-[10px] uppercase tracking-[0.4em] text-black block opacity-60">Direct Line</span>
-              <p className="text-2xl font-light text-black font-mono">mark.natad@aol.com</p>
+              <p className="text-2xl font-light text-black font-mono">jpanerio314@outlook.com</p>
             </div>
           </section>
         </main>
